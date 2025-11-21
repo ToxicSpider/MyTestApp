@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project(ForSightRoboticsProject)
+project(DemoProject)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,3 +15,4 @@ set(SOURCES
 add_executable(waves_maker ${SOURCES})
 target_link_libraries(waves_maker pthread)
 target_compile_options(waves_maker PRIVATE -pedantic-errors)
+
