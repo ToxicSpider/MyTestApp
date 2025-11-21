@@ -1,3 +1,7 @@
+/*
+Author: Alex Timonov
+email: crudus.spider@gmail.com
+*/
 #include <iostream>
 #include "common.h"
 #include "main_storage.h"
@@ -28,4 +32,5 @@ int main() {
 	t40.stop();
 
 	return 0;
+
 }
